@@ -2,6 +2,8 @@
 import java.awt.Toolkit;
 
 import javax.swing.*;
+import javax.swing.border.Border;
+
 import java.awt.*;
 
 public class Window extends JFrame {
@@ -15,6 +17,8 @@ public class Window extends JFrame {
 		setLayout(new FlowLayout());
 		
 		button = new JButton("Interesting Button");
+		button.setBackground(new Color( 25, 118, 210));
+		button.setBorder(null);
 		add(button);
 	}
 }
